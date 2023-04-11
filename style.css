@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #15202b;
+}
+canvas {
+    display: block;
+}
+#score {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+}
+#pauseButton{
+    position: fixed;
+    top: 400px;
+    right: 10px;
+}
+#colorOptions {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+.colorOption {
+width: 40px;
+height: 40px;
+margin: 0 5px;
+cursor: pointer;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+border: 3px solid transparent;
+}
+.startover{
+position: fixed;
+left: 50%;
+top: 50%;
+text-align: center;
+transform: translate(-50%, -50%);
+}
+.multicolor{
+background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
